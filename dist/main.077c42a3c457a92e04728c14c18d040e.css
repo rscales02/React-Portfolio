@@ -1,0 +1,128 @@
+.markdown {
+  background: white;
+  height: 110%;
+  left: -5%;
+  margin: 0 auto;
+  padding-top: 50px;
+  position: relative;
+  width: 110%; }
+  .markdown .container {
+    height: auto;
+    margin: 0 auto;
+    width: 800px; }
+  .markdown .markdownInput {
+    height: 500px;
+    width: 49%; }
+  .markdown .inline {
+    display: inline-block; }
+  .markdown .mardownOutput {
+    border: 1px solid #0c0000;
+    height: 504px !important;
+    position: absolute;
+    top: 50px;
+    width: 392px; }
+img {
+  border-radius: 5px;
+  height: 25px;
+  width: 25px; }
+
+.inline {
+  display: inline-block; }
+
+.img {
+  float: left;
+  padding-left: 10px; }
+
+.name {
+  text-align: center; }
+.leaderboard {
+  background: url("http://www.hdwallpaperspulse.com/wp-content/uploads/2016/03/10/black-free-background.png");
+  left: -5%;
+  margin: 0 auto;
+  padding-top: 50px;
+  position: relative;
+  width: 110%; }
+  .leaderboard #top {
+    background-color: green; }
+  .leaderboard h3 {
+    padding-right: 20px; }
+  .leaderboard table {
+    border-collapse: collapse;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.75);
+    margin: 0 auto;
+    width: 80%; }
+  .leaderboard table, .leaderboard th, .leaderboard td {
+    border: 1px solid black;
+    text-align: center; }
+  .leaderboard th, .leaderboard td {
+    padding: 15px; }
+  .leaderboard tr:nth-child(even) {
+    background-color: #aaa3a3; }
+  .leaderboard tr:nth-child(odd) {
+    background-color: white; }
+.recipe {
+  background: green;
+  margin: 0 auto;
+  width: 200px; }
+  .recipe .ingredients {
+    background: #ffffff;
+    position: relative;
+    opacity: 0;
+    transition: opacity 1s; }
+    .recipe .ingredients.open {
+      opacity: 1; }
+.modal {
+  background: rgba(250, 26, 26, 0.3);
+  float: left;
+  height: 100%;
+  position: absolute;
+  top: -110%;
+  transition: top 1s;
+  width: 100%;
+  z-index: 0; }
+  .modal.open {
+    top: 0; }
+  .modal .modal-dialog {
+    z-index: 5; }
+  .modal form {
+    display: table;
+    z-index: 5; }
+    .modal form p {
+      display: table-row; }
+    .modal form label {
+      display: table-cell;
+      vertical-align: top; }
+    .modal form input {
+      display: table-cell; }
+    .modal form textarea {
+      display: table-cell;
+      height: 150px; }
+.recipebox {
+  background: #ccccf0;
+  height: 1000px;
+  left: -5%;
+  margin: 0 auto;
+  position: relative;
+  width: 110%; }
+  .recipebox .modal-dialog {
+    background: rgba(13, 134, 98, 0.5);
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    top: 15%;
+    width: 400px; }
+  .recipebox .modal-footer {
+    position: absolute;
+    bottom: 5%;
+    right: 5%; }
+  .recipebox .container {
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 300px; }
+  .recipebox button {
+    margin-left: 50px; }
+  .recipebox form {
+    margin: 0 auto;
+    width: 300px; }
+
+/*# sourceMappingURL=main.077c42a3c457a92e04728c14c18d040e.css.map*/
